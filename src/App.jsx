@@ -33,7 +33,7 @@ export default function App() {
           <div className="hero-text">
             <p className="hero-title">Namabuddha Open School</p>
             <p className="hero-sub-text">
-              Namabuddha Open School was established in 2010 AD and taught by
+              Namabuddha Open School was established in 2007 AD and taught by
               experienced teachers and professionals.We provide high-quality
               education that will enable students to establish the foundation
               for a successful future.
