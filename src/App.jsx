@@ -10,7 +10,7 @@ export default function App() {
       <div className="container">
         <nav className="nav">
           <div className="nav-left">
-            <img src="../public/images/logo.jpg" className="logo" />
+            <img src="/images/logo.jpg" className="logo" />
             <div className="nav-contact">
               <p>+977 9841689234</p>
               <p>nawabuddha2022@gmail.com</p>
