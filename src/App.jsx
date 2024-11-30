@@ -33,10 +33,11 @@ export default function App() {
           <div className="hero-text">
             <p className="hero-title">Namabuddha Open School</p>
             <p className="hero-sub-text">
-              Namabuddha Open School was established in 2007 AD and taught by
-              experienced teachers and professionals.We provide high-quality
-              education that will enable students to establish the foundation
-              for a successful future.
+              “Our aims of education for next step” Educational aims are
+              correlated to ideals of life. The goal of education should be the
+              full flowering of the human on this earth. “the physical,
+              intellectual, emotional and ethical integration of the individual
+              into a complete man/woman is the fundamental aim of education.”
             </p>
           </div>
           <img className="hero-img" src="/main-photo.jpg" />
