@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /*10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigation*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+
+  background-color: #fff;
+  border-bottom: rgb(185, 183, 183) 1px solid;
+}
+
+.nav-left {
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.nav-contact {
+  margin-left: 2rem;
+}
+
+.logo {
+  width: 7rem;
+}
+
+.nav-items span {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0 4rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav-items a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-items span:hover {
+  color: #4335a7;
+}
+
+/*Hero-section*/
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 9.6rem; */
+  height: 90vh;
+}
+
+.hero-text {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.hero-sub-text {
+  width: 40rem;
+}
+
+.hero-title {
+  color: #4335a7;
+  font-size: 4.4rem;
+  padding-bottom: 0.8rem;
+}
+
+.hero-section img {
+  height: 50rem;
+  border-radius: 5px;
+}
+
+/*Services section*/
+
+.services-title {
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #4335a7;
+}
+
+.services-container {
+  margin: 1.6rem 12rem 5rem 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-items img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+
+.services-items {
+  width: 40rem;
+  margin-right: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgb(149, 213, 223);
+  box-shadow: 0 1rem 1rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+
+.services-items p {
+  padding: 0 1.2rem;
+}
+
+.services-items-title {
+  margin-top: 1.2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.services-items-paragraph {
+  margin-top: 5px;
+  width: 30rem;
+  font-size: 1.4rem;
+}
+
+/*Gallery section*/
+
+.gallery {
+  margin: 15rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-title {
+  color: #4335a7;
+  font-weight: bold;
+
+  font-size: 4.8rem;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90rem;
+  height: 60rem;
+}
+
+.arrow {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: -2rem;
+}
+
+.arrow-right {
+  right: -2rem;
+}
+
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.indicator {
+  background-color: white;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: grey;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  border-top: 1px solid rgb(178, 176, 176);
+}
+
+.footer-logo {
+  width: 16rem;
+}
+
+.footer-right-title {
+  margin-top: 2rem;
+  color: #4335a7;
+  font-size: 2.4rem;
+}
+
+.footer-right-sub {
+  color: #333;
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+/*Responsive Designs*/
+@media screen and (max-width: 792px) {
+  .nav p,
+  a {
+    font-size: 1.2rem;
+  }
+
+  .nav-items span {
+    padding: 0 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-sub-text {
+    font-size: 1.2rem;
+  }
+
+  .hero-section {
+    margin: 0 2rem;
+  }
+
+  .hero-section img {
+    height: 20rem;
+  }
+
+  .services-container {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .services-items {
+    margin-bottom: 5rem;
+    /* margin-right: ; */
+    margin-right: 0px;
+  }
+
+  .carousel {
+    width: 40rem;
+    height: 30rem;
+  }
+}

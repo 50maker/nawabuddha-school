@@ -1,0 +1,29 @@
+{
+  "slides": [
+    {
+      "src": "../../public/images/gallery/1.jpg",
+      "alt": "Image of books"
+    },
+    {
+      "src": "../../public/images/gallery/2.jpg",
+      "alt": "Image of people"
+    },
+
+    {
+      "src": "../../public/images/gallery/4.jpg",
+      "alt": "Image of a nurse"
+    },
+    {
+      "src": "../../public/images/gallery/5.jpeg",
+      "alt": "Image of a nurse"
+    },
+    {
+      "src": "../../public/images/gallery/6.jpeg",
+      "alt": "Image of a nurse"
+    },
+    {
+      "src": "../../public/images/gallery/7.jpeg",
+      "alt": "Image of two person using computer"
+    }
+  ]
+}
