@@ -242,7 +242,7 @@ body {
 }
 
 /*Responsive Designs*/
-@media screen and (max-width: 792px) {
+@media screen and (max-width: 1200px) {
   .nav p,
   a {
     font-size: 1.2rem;
@@ -252,12 +252,17 @@ body {
     padding: 0 2rem;
   }
 
+  .hero-section {
+    height: 50vh;
+  }
+
   .hero-title {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
 
   .hero-sub-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    width: 20rem;
   }
 
   .hero-section {
@@ -265,23 +270,99 @@ body {
   }
 
   .hero-section img {
-    height: 20rem;
+    height: 35rem;
+  }
+
+  .services-items-title {
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: #4b447e;
+  }
+
+  .services-items-paragraph {
+    width: 45rem;
+    font-size: 2.2rem;
   }
 
   .services-container {
     flex-direction: column;
-
     align-items: center;
   }
 
   .services-items {
     margin-bottom: 5rem;
-    /* margin-right: ; */
+
     margin-right: 0px;
+    width: 50rem;
+    padding-bottom: 5rem;
+  }
+
+  .services-items img {
+    height: 27rem;
+    border-radius: 0.5rem;
+  }
+
+  .carousel {
+    width: 77rem;
+    height: 57rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 5rem;
+  }
+  .nav p,
+  a {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    height: 30vh;
+  }
+
+  .hero-sub-text {
+    font-size: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-section img {
+    height: 14rem;
+  }
+
+  .services-items {
+    width: 35rem;
+  }
+
+  .services-items-title {
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: #4b447e;
+  }
+
+  .services-items-paragraph {
+    width: 30rem;
+    font-size: 1.2rem;
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .services-items img {
+    height: 27rem;
+    border-radius: 0.5rem;
   }
 
   .carousel {
     width: 40rem;
-    height: 30rem;
+    height: 28rem;
+  }
+
+  .footer-logo {
+    width: 10rem;
   }
 }
