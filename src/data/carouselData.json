@@ -1,29 +1,29 @@
 {
   "slides": [
     {
-      "src": "../../public/images/gallery/1.jpg",
-      "alt": "Image of books"
+      "src": "/images/gallery/1.jpg",
+      "alt": "People using computer"
     },
     {
-      "src": "../../public/images/gallery/2.jpg",
-      "alt": "Image of people"
+      "src": "/images/gallery/2.jpg",
+      "alt": "Award ceremony"
     },
 
     {
-      "src": "../../public/images/gallery/4.jpg",
-      "alt": "Image of a nurse"
+      "src": "/images/gallery/4.jpg",
+      "alt": "Group photo of school members"
     },
     {
-      "src": "../../public/images/gallery/5.jpeg",
-      "alt": "Image of a nurse"
+      "src": "/images/gallery/5.jpeg",
+      "alt": "Image of students"
     },
     {
-      "src": "../../public/images/gallery/6.jpeg",
-      "alt": "Image of a nurse"
+      "src": "/images/gallery/6.jpeg",
+      "alt": "Image of students"
     },
     {
-      "src": "../../public/images/gallery/7.jpeg",
-      "alt": "Image of two person using computer"
+      "src": "/images/gallery/7.jpeg",
+      "alt": "Students doing wall climbing training"
     }
   ]
 }
