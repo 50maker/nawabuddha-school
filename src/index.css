@@ -369,15 +369,19 @@ body {
 
 @media screen and (max-width: 442px) {
   .hero-section {
-    height: 50vh;
+    height: 60vh;
   }
 
   .hero-text {
     margin-right: 1rem;
   }
 
+  .hero-sub-text {
+    width: 14rem;
+  }
+
   .hero-section img {
-    height: 10rem;
+    height: 12rem;
   }
   .services-items {
     width: 30rem;
