@@ -372,6 +372,10 @@ body {
     height: 50vh;
   }
 
+  .hero-text {
+    margin-right: 1rem;
+  }
+
   .hero-section img {
     height: 10rem;
   }
@@ -380,7 +384,7 @@ body {
   }
 
   .services-title {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
   }
 
   .services-items img {
@@ -401,11 +405,11 @@ body {
   }
 
   .gallery-title {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
   }
   .carousel {
-    width: 32rem;
-    height: 23rem;
+    width: 31rem;
+    height: 22rem;
   }
 
   .footer-logo {
