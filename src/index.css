@@ -368,6 +368,9 @@ body {
 }
 
 @media screen and (max-width: 442px) {
+  .nav-items span {
+    padding: 0 1rem;
+  }
   .hero-section {
     height: 40vh;
   }
