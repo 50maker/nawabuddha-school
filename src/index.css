@@ -253,7 +253,7 @@ body {
   }
 
   .hero-section {
-    height: 50vh;
+    height: 150vh;
   }
 
   .hero-title {
@@ -318,7 +318,7 @@ body {
   }
 
   .hero-section {
-    height: 30vh;
+    height: 50vh;
   }
 
   .hero-sub-text {
@@ -364,5 +364,55 @@ body {
 
   .footer-logo {
     width: 10rem;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .hero-section {
+    height: 70vh;
+  }
+  .services-items {
+    margin-left: 10rem;
+    width: 30rem;
+  }
+
+  .services-title {
+    margin-left: 8rem;
+    font-size: 3.4rem;
+  }
+
+  .services-items img {
+    height: 22rem;
+    border-radius: 0.5rem;
+  }
+
+  .services-items-title {
+    font-size: 1.8rem;
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .gallery-title {
+    margin-left: 8rem;
+    font-size: 3.4rem;
+  }
+  .carousel {
+    margin-left: 10rem;
+    width: 37rem;
+    height: 28rem;
+  }
+
+  .footer-logo {
+    width: 7rem;
+  }
+
+  .footer-right-title {
+    font-size: 1.6rem;
+  }
+
+  .footer-right-sub {
+    font-size: 1.2rem;
   }
 }
