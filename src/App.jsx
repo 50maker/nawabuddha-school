@@ -39,7 +39,7 @@ export default function App() {
               for a successful future.
             </p>
           </div>
-          <img src="../public/images/main-photo.jpg" />
+          <img src="../public/main-photo.jpg" />
         </div>
 
         <div className="services">
