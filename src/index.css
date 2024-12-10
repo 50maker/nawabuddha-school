@@ -23,7 +23,7 @@ body {
 
   padding: 1rem 2rem;
 
-  background-color: #fff;
+  background-color: #7fcd26;
   border-bottom: rgb(185, 183, 183) 1px solid;
 }
 
@@ -221,10 +221,12 @@ body {
   justify-content: space-between;
   padding: 2rem 5rem;
   border-top: 1px solid rgb(178, 176, 176);
+
+  background-color: #7fcd26;
 }
 
 .footer-logo {
-  width: 16rem;
+  width: 10rem;
 }
 
 .footer-right-title {

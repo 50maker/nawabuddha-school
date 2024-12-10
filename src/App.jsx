@@ -19,9 +19,7 @@ export default function App() {
           </div>
 
           <div className="nav-items">
-            <span>
-              <a href="#home">Home</a>
-            </span>
+            <span>{/* <a href="#home">Home</a> */}</span>
             <span>
               <a href="#gallery">Gallery</a>
             </span>
