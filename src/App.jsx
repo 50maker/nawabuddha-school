@@ -80,7 +80,7 @@ export default function App() {
             <p>Opening Hours</p>
             <div className="footer-right-sub">
               <p>Sun-Fri</p>
-              <p>7:00am-3:00pm</p>
+              <p>7:00am-5:00pm</p>
             </div>
           </div>
         </div>
